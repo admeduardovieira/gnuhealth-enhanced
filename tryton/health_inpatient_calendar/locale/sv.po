@@ -1,0 +1,31 @@
+#
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2026-09-13 16:26+0000\n"
+"Last-Translator: yeager <yeager@noreply.codeberg.org>\n"
+"Language-Team: Swedish <https://translate.codeberg.org/projects/gnuhealth/health_inpatient_calendar/sv/>\n"
+"Language: sv\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2026.8.1\n"
+
+msgctxt "field:gnuhealth.hospital.bed,calendar:"
+msgid "Calendar"
+msgstr "Kalender"
+
+msgctxt "field:gnuhealth.inpatient.registration,event:"
+msgid "Calendar Event"
+msgstr "Kalenderhändelse"
+
+msgctxt "help:gnuhealth.hospital.bed,calendar:"
+msgid ""
+"A calendar can be associated to a bed. To use this functionality, it needs "
+"to be created via health -> calendars"
+msgstr ""
+"En kalender kan kopplas till en säng. För att använda funktionen måste den "
+"skapas via hälsa -> kalendrar"
+
+msgctxt "help:gnuhealth.inpatient.registration,event:"
+msgid "Calendar Event associated to this hospitalization"
+msgstr "Kalenderhändelse kopplad till denna inläggning"

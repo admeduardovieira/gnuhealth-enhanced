@@ -1,0 +1,56 @@
+#
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2026-04-19 12:29+0000\n"
+"Last-Translator: fserrador <fserrador@noreply.codeberg.org>\n"
+"Language-Team: Spanish <https://translate.codeberg.org/projects/gnuhealth/health_stock_surgery/es/>\n"
+"Language: es\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.17\n"
+
+msgctxt "field:gnuhealth.surgery,location:"
+msgid "Stock Location"
+msgstr "Lugar de material"
+
+#, fuzzy
+msgctxt "field:gnuhealth.surgery,moves:"
+msgid "Moves"
+msgstr "Movimientos"
+
+msgctxt "model:gnuhealth.surgery.stock.move.init,name:"
+msgid "Create Surgery Stock Move Init"
+msgstr "Crear inicio de movimiento de stock de cirugía"
+
+msgctxt "model:ir.action,name:act_create_surgery_stock_move"
+msgid "Create Surgery Stock Move"
+msgstr "Crear movimiento de stock de cirugía"
+
+msgctxt "model:ir.action,name:act_surgery_move_form1"
+msgid "Surgery Stock Moves [readonly]"
+msgstr "Movimientos en el stock de cirugía [solo lectura]"
+
+msgctxt "model:ir.message,text:msg_stock_move_exists"
+msgid "Stock move already exists"
+msgstr "El movimiento del stock ya existe"
+
+msgctxt "view:gnuhealth.surgery.stock.move.init:"
+msgid "Create Stock Move?"
+msgstr "¿Crear un movimiento del stock?"
+
+#, fuzzy
+msgctxt "view:gnuhealth.surgery:"
+msgid "Stock"
+msgstr "Logística"
+
+#, fuzzy
+msgctxt ""
+"wizard_button:gnuhealth.surgery.stock.move.create,start,create_stock_move:"
+msgid "Create Stock Move"
+msgstr "Crear Movimiento de Stock"
+
+#, fuzzy
+msgctxt "wizard_button:gnuhealth.surgery.stock.move.create,start,end:"
+msgid "Cancel"
+msgstr "Cancelar"

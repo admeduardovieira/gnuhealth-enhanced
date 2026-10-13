@@ -1,0 +1,94 @@
+# SPDX-FileCopyrightText: 2024 Gerald Wiese
+#
+# SPDX-License-Identifier: GPL-3.0-or-later
+
+# woodpecker syntax: https://woodpecker-ci.org/docs/usage/workflow-syntax
+
+# This ci is used to auto update po files of his.git, they do following jobs:
+# 1. clone his.git devel branch to tmp/his dir.
+# 2. clone his-misc.git devel branch to tmp/his-utils dir.
+# 3. Install gnuhealth to tmp/ghis dir with the help of devel-installer in his-misc.
+# 4. merge origin/translate branch to devel branch.
+# 5. Use po-export tool to update po files.
+# 6. push to origin/translate branch.
+# 7. push to origin/devel branch.
+
+# As for 'devel' branch, we should include "UPDATE PO" in commit
+# string to trigger po-export ci, the reason is that po-export ci will
+# consume more resources and has a longer running time (> 10 min).
+
+depends_on:
+  - lint
+
+when:
+  - branch: [translate]
+    event: [push, manual]
+  - branch: [devel]
+    event: [push, manual]
+    evaluate: 'CI_COMMIT_MESSAGE contains "UPDATE PO"'
+
+steps:
+  - name: clone-his-misc-git
+    image: woodpeckerci/plugin-git
+    settings:
+      remote: https://codeberg.org/gnuhealth/his-misc.git
+      branch: devel
+      path: tmp/his-misc-git
+      sha: ''
+      ref: 'refs/heads/devel'
+      partial: true
+      lfs: false
+
+  - name: clone-his-git
+    image: woodpeckerci/plugin-git
+    settings:
+      remote: https://codeberg.org/gnuhealth/his.git
+      branch: devel
+      path: tmp/his-git
+      sha: ''
+      ref: 'refs/heads/devel'
+      partial: false
+      lfs: false
+
+  - name: run-po-export-script
+    image: debian
+    commands:
+      - apt-get update -y
+      # installing packages in woodpecker of codeberg.org is very
+      # slow, so just install packages necessary.
+      - apt-get install -y --no-install-recommends --no-upgrade sqlite3 patch python3-pip python3-venv python3-dev gcc libsasl2-dev libldap2-dev git gettext libmagic1
+      - git config --global user.email "po-export@po-export.invalid"
+      - git config --global user.name "po-export"
+      # We git clone his.git and his-misc.git to 'tmp' directory.
+      - cd tmp
+      # Install gnuhealth with the help of devel-installer in his-misc repo.
+      - his-misc-git/devel-installer/devel-installer.sh --git-repo his-git --install-dir ghis --sqlite-db po-export-db
+      # NOTE: if we do not use --fast-export argument, po-export.sh in
+      # woodpecker will run > 1 hour, then fail for context deadline
+      # exceeded reason, so if we change some packages with big xml
+      # data files, for example health_gene*, we should run
+      # po-export.sh in our own machine without --fast-export
+      # argument.
+      - ghis/ghis_env his-misc-git/scripts/po-export/update-his-repo.sh his-git --use-sqlite --database po-export-db --fast-export
+
+  - name: push-po-changes-to-his-translate-branch
+    image: appleboy/drone-git-push
+    settings:
+      path: tmp/his-git
+      remote: git@codeberg.org:gnuhealth/his.git
+      ssh_key:
+        from_secret: ssh_deploy_key
+      branch: translate
+      force: false
+      commit: false
+
+  - name: push-po-changes-to-his-dev-branch
+    image: appleboy/drone-git-push
+    settings:
+      path: tmp/his-git
+      remote: git@codeberg.org:gnuhealth/his.git
+      ssh_key:
+        from_secret: ssh_deploy_key
+      branch: devel
+      force: false
+      commit: false

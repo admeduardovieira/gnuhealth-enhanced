@@ -1,0 +1,73 @@
+# SPDX-FileCopyrightText: 2024 Gerald Wiese
+#
+# SPDX-License-Identifier: GPL-3.0-or-later
+
+# woodpecker syntax: https://woodpecker-ci.org/docs/usage/workflow-syntax
+
+# This ci is used to backport po files in devel branch to main branch.
+
+depends_on:
+  - po-export
+
+when:
+  - branch: [main, translate]
+    event: [push, manual]
+
+steps:
+  - name: clone-his-misc-git
+    image: woodpeckerci/plugin-git
+    settings:
+      remote: https://codeberg.org/gnuhealth/his-misc.git
+      branch: devel
+      path: tmp/his-misc-git
+      sha: ''
+      ref: 'refs/heads/devel'
+      partial: true
+      lfs: false
+
+  - name: clone-his-main-branch
+    image: woodpeckerci/plugin-git
+    settings:
+      remote: https://codeberg.org/gnuhealth/his.git
+      branch: main
+      path: tmp/his-main-git
+      sha: ''
+      ref: 'refs/heads/main'
+      partial: false
+      lfs: false
+
+  - name: clone-his-devel-branch
+    image: woodpeckerci/plugin-git
+    settings:
+      remote: https://codeberg.org/gnuhealth/his.git
+      branch: devel
+      path: tmp/his-devel-git
+      sha: ''
+      ref: 'refs/heads/devel'
+      partial: false
+      lfs: false
+
+  - name: run-backport-po-files-script
+    image: debian
+    commands:
+      - apt-get update -y
+      # installing packages in woodpecker of codeberg.org is very
+      # slow, so just install packages necessary.
+      - apt-get install -y --no-install-recommends git gettext python3 python3-polib
+      - git config --global user.email "po-backport@po-backport.invalid"
+      - git config --global user.name "po-backport"
+      # We git clone his.git and his-misc.git to 'tmp' directory.
+      - cd tmp
+      # Backport po files from devel branch to main branch.
+      - his-misc-git/scripts/po-export/backport-po-files.sh --main-dir his-main-git --devel-dir his-devel-git
+
+  - name: push-po-changes-to-po-backport-branch
+    image: appleboy/drone-git-push
+    settings:
+      path: tmp/his-main-git
+      remote: git@codeberg.org:gnuhealth/his.git
+      ssh_key:
+        from_secret: ssh_deploy_key
+      branch: po-backport
+      force: true
+      commit: false

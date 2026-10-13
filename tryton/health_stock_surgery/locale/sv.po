@@ -1,0 +1,52 @@
+#
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2026-09-13 16:26+0000\n"
+"Last-Translator: yeager <yeager@noreply.codeberg.org>\n"
+"Language-Team: Swedish <https://translate.codeberg.org/projects/gnuhealth/health_stock_surgery/sv/>\n"
+"Language: sv\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2026.8.1\n"
+
+msgctxt "field:gnuhealth.surgery,location:"
+msgid "Stock Location"
+msgstr "Lagerplats"
+
+msgctxt "field:gnuhealth.surgery,moves:"
+msgid "Moves"
+msgstr "Lagerförflyttningar"
+
+msgctxt "model:gnuhealth.surgery.stock.move.init,name:"
+msgid "Create Surgery Stock Move Init"
+msgstr "Initiera lagerförflyttning för operation"
+
+msgctxt "model:ir.action,name:act_create_surgery_stock_move"
+msgid "Create Surgery Stock Move"
+msgstr "Skapa lagerförflyttning för operation"
+
+msgctxt "model:ir.action,name:act_surgery_move_form1"
+msgid "Surgery Stock Moves [readonly]"
+msgstr "Lagerförflyttningar för operation [skrivskyddad]"
+
+msgctxt "model:ir.message,text:msg_stock_move_exists"
+msgid "Stock move already exists"
+msgstr "Lagerförflyttningen finns redan"
+
+msgctxt "view:gnuhealth.surgery.stock.move.init:"
+msgid "Create Stock Move?"
+msgstr "Skapa lagerflytt?"
+
+msgctxt "view:gnuhealth.surgery:"
+msgid "Stock"
+msgstr "Lager"
+
+msgctxt ""
+"wizard_button:gnuhealth.surgery.stock.move.create,start,create_stock_move:"
+msgid "Create Stock Move"
+msgstr "Skapa lagerförflyttning"
+
+msgctxt "wizard_button:gnuhealth.surgery.stock.move.create,start,end:"
+msgid "Cancel"
+msgstr "Avbryt"

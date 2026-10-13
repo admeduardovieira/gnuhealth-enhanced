@@ -1,0 +1,83 @@
+#
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2026-09-13 16:26+0000\n"
+"Last-Translator: yeager <yeager@noreply.codeberg.org>\n"
+"Language-Team: Swedish <https://translate.codeberg.org/projects/gnuhealth/health_services_lab/sv/>\n"
+"Language: sv\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2026.8.1\n"
+
+msgctxt "field:gnuhealth.patient.lab.test,service:"
+msgid "Service"
+msgstr "Tjänst"
+
+msgctxt "field:gnuhealth.patient.lab.test,service_updated:"
+msgid "Service updated"
+msgstr "Tjänsten uppdaterades"
+
+msgctxt "field:gnuhealth.patient.lab.test.request.start,service:"
+msgid "Service"
+msgstr "Tjänst"
+
+msgctxt "field:gnuhealth.patient.lab.test.request.start,ungroup_tests:"
+msgid "Ungroup"
+msgstr "Avgruppera"
+
+msgctxt "help:gnuhealth.patient.lab.test,service:"
+msgid "Service document associated to this Lab Request"
+msgstr "Tjänstedokument kopplat till denna laboratoriebegäran"
+
+msgctxt "help:gnuhealth.patient.lab.test.request.start,service:"
+msgid "Service document associated to this Lab Request"
+msgstr "Tjänstedokument kopplat till denna laboratoriebegäran"
+
+msgctxt "help:gnuhealth.patient.lab.test.request.start,ungroup_tests:"
+msgid ""
+"Check if you DO NOT want to include each individual lab test from this order in the lab test generation step. This is useful when some services are not provided in the same institution.\n"
+"In this case, you need to individually update the service document from each individual test"
+msgstr ""
+"Markera om du INTE vill ta med varje enskilt laboratorietest från denna beställning i steget för att skapa laboratorietester. Det är användbart när vissa tjänster inte erbjuds på samma institution.\n"
+"I så fall behöver du uppdatera tjänstedokumentet för varje enskilt test."
+
+msgctxt "model:ir.message,text:msg_no_service_associated"
+msgid "SM-SERVICES_LAB-0001: Need to associate a service"
+msgstr "SM-SERVICES_LAB-0001: En tjänst måste kopplas"
+
+msgctxt "model:ir.message,text:msg_service_has_been_updated"
+msgid ""
+"SM-SERVICES_LAB-0002: \"Service updated\" is \"yes\" indicates that the "
+"service has been updated, please verify it again."
+msgstr ""
+"SM-SERVICES_LAB-0002: ”Tjänsten uppdaterades” är ”ja”, vilket visar att "
+"tjänsten har uppdaterats. Kontrollera den igen."
+
+msgctxt "model:ir.model.button,string:srvlab_update_button"
+msgid "Update Services"
+msgstr "Uppdatera tjänster"
+
+msgctxt "selection:gnuhealth.patient.lab.test,service_updated:"
+msgid "No"
+msgstr "Nej"
+
+msgctxt "selection:gnuhealth.patient.lab.test,service_updated:"
+msgid "Unknown"
+msgstr "Okänd"
+
+msgctxt "selection:gnuhealth.patient.lab.test,service_updated:"
+msgid "Yes"
+msgstr "Ja"
+
+msgctxt "view:gnuhealth.patient.lab.test:"
+msgid "Transfer lab request to services ?"
+msgstr "Överföra laboratoriebegäran till tjänster?"
+
+msgctxt "view:gnuhealth.patient.lab.test:"
+msgid "Update Service document with this lab request ?"
+msgstr "Uppdatera tjänstedokumentet med denna laboratoriebegäran?"
+
+msgctxt "view:gnuhealth.patient.lab.test:"
+msgid "Update Services"
+msgstr "Uppdatera tjänster"

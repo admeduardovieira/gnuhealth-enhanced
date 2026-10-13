@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+build/
+dist/
+sdist/
+eggs/
+*.egg-info/
+wheels/
+*.patch
+*.~lock*
+*.po-merge

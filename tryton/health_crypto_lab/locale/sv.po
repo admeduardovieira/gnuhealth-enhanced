@@ -1,0 +1,75 @@
+#
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2026-09-13 16:26+0000\n"
+"Last-Translator: yeager <yeager@noreply.codeberg.org>\n"
+"Language-Team: Swedish <https://translate.codeberg.org/projects/gnuhealth/health_crypto_lab/sv/>\n"
+"Language: sv\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2026.8.1\n"
+
+msgctxt "field:gnuhealth.lab,digest_current:"
+msgid "Current Hash"
+msgstr "Aktuellt hashvärde"
+
+msgctxt "field:gnuhealth.lab,digest_status:"
+msgid "Altered"
+msgstr "Förändrad"
+
+msgctxt "field:gnuhealth.lab,digital_signature:"
+msgid "Digital Signature"
+msgstr "Digital signatur"
+
+msgctxt "field:gnuhealth.lab,document_digest:"
+msgid "Digest"
+msgstr "Hashvärde"
+
+msgctxt "field:gnuhealth.lab,serializer:"
+msgid "Doc String"
+msgstr "Dokumentationssträng"
+
+msgctxt "field:gnuhealth.lab,serializer_current:"
+msgid "Current Doc"
+msgstr "Aktuellt dokument"
+
+msgctxt "help:gnuhealth.lab,digest_status:"
+msgid ""
+"This field will be set whenever parts of the main original document has been"
+" changed. Please note that the verification is done only on selected fields."
+msgstr ""
+"Det här fältet ställs in när delar av huvuddokumentets original har ändrats."
+" Observera att verifieringen endast utförs på valda fält."
+
+msgctxt "help:gnuhealth.lab,document_digest:"
+msgid "Original Document Digest"
+msgstr "Hashvärde för originaldokumentet"
+
+msgctxt "model:ir.model.button,string:labtest_sign_button"
+msgid "Validate"
+msgstr "Validera"
+
+msgctxt "view:gnuhealth.lab:"
+msgid "Are you sure to sign this lab results ?"
+msgstr "Är du säker på att du vill signera dessa laboratorieresultat?"
+
+msgctxt "view:gnuhealth.lab:"
+msgid "Digital Signature"
+msgstr "Digital signatur"
+
+msgctxt "view:gnuhealth.lab:"
+msgid "Document validation"
+msgstr "Dokumentvalidering"
+
+msgctxt "view:gnuhealth.lab:"
+msgid "Validate"
+msgstr "Validera"
+
+msgctxt "view:gnuhealth.lab:"
+msgid "Validate and Sign the lab test"
+msgstr "Validera och signera laboratorieprovet"
+
+msgctxt "view:gnuhealth.lab:"
+msgid "Validation"
+msgstr "Validering"

@@ -1,0 +1,827 @@
+#
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2025-12-15 02:10+0000\n"
+"Last-Translator: victorhck <victorhck@noreply.codeberg.org>\n"
+"Language-Team: Spanish <https://translate.codeberg.org/projects/gnuhealth/health_orthanc/es/>\n"
+"Language: es\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.14.3\n"
+
+msgctxt "field:gnuhealth.imaging.test.result,orthanc_studies:"
+msgid "Orthanc studies"
+msgstr "Estudios de Orthanc"
+
+msgctxt "field:gnuhealth.imaging.test.result,studies:"
+msgid "Orthanc studies"
+msgstr "Estudios de orthanc"
+
+#, fuzzy
+msgctxt "field:gnuhealth.imaging_orthanc.orthanc_add_init_data,domain:"
+msgid "URL"
+msgstr "URL"
+
+#, fuzzy
+msgctxt "field:gnuhealth.imaging_orthanc.orthanc_add_init_data,label:"
+msgid "Label"
+msgstr "Etiqueta"
+
+#, fuzzy
+msgctxt "field:gnuhealth.imaging_orthanc.orthanc_add_init_data,password:"
+msgid "Password"
+msgstr "Contraseña"
+
+msgctxt "field:gnuhealth.imaging_orthanc.orthanc_add_init_data,proxy_domain:"
+msgid "Proxy URL"
+msgstr "URL del Proxy"
+
+#, fuzzy
+msgctxt "field:gnuhealth.imaging_orthanc.orthanc_add_init_data,user:"
+msgid "Username"
+msgstr "Usuario"
+
+msgctxt "field:gnuhealth.imaging_orthanc.series_instances,image:"
+msgid "Image"
+msgstr "imagen"
+
+msgctxt ""
+"field:gnuhealth.imaging_orthanc.series_instances,image_position_patient:"
+msgid "Image Position"
+msgstr "Posición de la imagen"
+
+msgctxt "field:gnuhealth.imaging_orthanc.series_instances,instance_number:"
+msgid "Instance Number"
+msgstr "Número de instancia"
+
+msgctxt "field:gnuhealth.imaging_orthanc.series_instances,orthanc_UID:"
+msgid "Orthanc UID"
+msgstr "UID de Orthanc"
+
+msgctxt "field:gnuhealth.imaging_orthanc.series_instances,series:"
+msgid "Series"
+msgstr "Series"
+
+msgctxt "field:gnuhealth.imaging_orthanc.series_instances,server:"
+msgid "Server"
+msgstr "Servidor"
+
+msgctxt "field:gnuhealth.imaging_orthanc.series_instances,sop_instance_UID:"
+msgid "SOP Instance UID"
+msgstr "UID de instancia SOP"
+
+#, fuzzy
+msgctxt "field:gnuhealth.imaging_orthanc.study,date:"
+msgid "Date"
+msgstr "Fecha"
+
+#, fuzzy
+msgctxt "field:gnuhealth.imaging_orthanc.study,gnuhealth_patient_name:"
+msgid "Health Patient"
+msgstr "Paciente"
+
+#, fuzzy
+msgctxt "field:gnuhealth.imaging_orthanc.study,imaging_test:"
+msgid "Result"
+msgstr "Resultado"
+
+#, fuzzy
+msgctxt "field:gnuhealth.imaging_orthanc.study,institution:"
+msgid "Institution"
+msgstr "Institución"
+
+msgctxt "field:gnuhealth.imaging_orthanc.study,link_base_url:"
+msgid "Link Base URL"
+msgstr "URL de Link Base"
+
+msgctxt "field:gnuhealth.imaging_orthanc.study,merge_comment:"
+msgid "Merge Comment"
+msgstr "Combinar comentario"
+
+msgctxt "field:gnuhealth.imaging_orthanc.study,merge_id:"
+msgid "Merge ID"
+msgstr "ID de Merge"
+
+#, fuzzy
+msgctxt "field:gnuhealth.imaging_orthanc.study,notes:"
+msgid "Study notes"
+msgstr "Estudio"
+
+msgctxt "field:gnuhealth.imaging_orthanc.study,ohif_viewer_link:"
+msgid "OHIF Viewer"
+msgstr "Visor OHIF"
+
+msgctxt "field:gnuhealth.imaging_orthanc.study,orthanc_UID:"
+msgid "Orthanc UID"
+msgstr "UID de Orthanc"
+
+#, fuzzy
+msgctxt "field:gnuhealth.imaging_orthanc.study,patient:"
+msgid "Patient"
+msgstr "Paciente"
+
+#, fuzzy
+msgctxt "field:gnuhealth.imaging_orthanc.study,patient_id:"
+msgid "Patient ID"
+msgstr "Paciente"
+
+#, fuzzy
+msgctxt "field:gnuhealth.imaging_orthanc.study,patient_name:"
+msgid "Orthanc Patient"
+msgstr "Paciente"
+
+msgctxt "field:gnuhealth.imaging_orthanc.study,performing_physician_name:"
+msgid "Physician"
+msgstr "Médico"
+
+msgctxt "field:gnuhealth.imaging_orthanc.study,series:"
+msgid "Study Series"
+msgstr "Serie de estudios"
+
+msgctxt "field:gnuhealth.imaging_orthanc.study,server:"
+msgid "Orthanc Server"
+msgstr "Servidor Orthanc"
+
+msgctxt "field:gnuhealth.imaging_orthanc.study,stone_viewer_link:"
+msgid "Stone Viewer"
+msgstr "Visor Stone"
+
+#, fuzzy
+msgctxt "field:gnuhealth.imaging_orthanc.study,study_instance_UID:"
+msgid "Study UID"
+msgstr "Estudio"
+
+msgctxt "field:gnuhealth.imaging_orthanc.study_series,instances:"
+msgid "Series Instance"
+msgstr "Instancia de serie"
+
+msgctxt "field:gnuhealth.imaging_orthanc.study_series,modality:"
+msgid "Modality"
+msgstr "Modalidad"
+
+msgctxt "field:gnuhealth.imaging_orthanc.study_series,notes:"
+msgid "Series notes"
+msgstr "Notas de la serie"
+
+msgctxt "field:gnuhealth.imaging_orthanc.study_series,orthanc_UID:"
+msgid "Orthanc UID"
+msgstr "UID de Orthanc"
+
+msgctxt "field:gnuhealth.imaging_orthanc.study_series,series_UID:"
+msgid "Series UID"
+msgstr "UID de serie"
+
+#, fuzzy
+msgctxt "field:gnuhealth.imaging_orthanc.study_series,series_description:"
+msgid "Description"
+msgstr "Descripción"
+
+msgctxt "field:gnuhealth.imaging_orthanc.study_series,series_number:"
+msgid "Series No."
+msgstr "Serie Núm."
+
+msgctxt "field:gnuhealth.imaging_orthanc.study_series,server:"
+msgid "Server"
+msgstr "Servidor"
+
+msgctxt "field:gnuhealth.imaging_orthanc.study_series,stone_viewer_link:"
+msgid "Stone Viewer"
+msgstr "Visor Stone"
+
+#, fuzzy
+msgctxt "field:gnuhealth.imaging_orthanc.study_series,study:"
+msgid "Study"
+msgstr "Estudio"
+
+msgctxt ""
+"field:gnuhealth.imaging_orthanc.upload_image_data.start,data_to_upload:"
+msgid "File to upload"
+msgstr "Archivo a subir"
+
+msgctxt ""
+"field:gnuhealth.imaging_orthanc.upload_image_data.start,server_config:"
+msgid "Server"
+msgstr "Servidor"
+
+#, fuzzy
+msgctxt "field:gnuhealth.orthanc.config,domain:"
+msgid "URL"
+msgstr "URL"
+
+#, fuzzy
+msgctxt "field:gnuhealth.orthanc.config,label:"
+msgid "Label"
+msgstr "Etiqueta"
+
+msgctxt "field:gnuhealth.orthanc.config,last_changed_index:"
+msgid "Last Changed Index"
+msgstr "Índice modificado por última vez"
+
+msgctxt "field:gnuhealth.orthanc.config,link:"
+msgid "Link"
+msgstr "Enlace"
+
+msgctxt "field:gnuhealth.orthanc.config,link_base_url:"
+msgid "Link Base URL"
+msgstr "URL base del enlace"
+
+#, fuzzy
+msgctxt "field:gnuhealth.orthanc.config,password:"
+msgid "Password"
+msgstr "Contraseña"
+
+msgctxt "field:gnuhealth.orthanc.config,proxy_domain:"
+msgid "Proxy URL"
+msgstr "URL del Proxy"
+
+msgctxt "field:gnuhealth.orthanc.config,user:"
+msgid "Username"
+msgstr "Nombre de usuario"
+
+#, fuzzy
+msgctxt "field:gnuhealth.orthanc.config,validated:"
+msgid "Validated"
+msgstr "Validado"
+
+msgctxt "field:gnuhealth.orthanc.patient,bd:"
+msgid "Birthdate"
+msgstr "Fecha de nacimiento"
+
+msgctxt "field:gnuhealth.orthanc.patient,ident:"
+msgid "PatientID"
+msgstr "ID del paciente"
+
+#, fuzzy
+msgctxt "field:gnuhealth.orthanc.patient,link:"
+msgid "URL"
+msgstr "URL"
+
+msgctxt "field:gnuhealth.orthanc.patient,name:"
+msgid "PatientName"
+msgstr "Nombre del paciente"
+
+#, fuzzy
+msgctxt "field:gnuhealth.orthanc.patient,patient:"
+msgid "Patient"
+msgstr "Paciente"
+
+msgctxt "field:gnuhealth.orthanc.patient,server:"
+msgid "Server"
+msgstr "Servidor"
+
+msgctxt "field:gnuhealth.orthanc.patient,studies:"
+msgid "Studies"
+msgstr "Estudios"
+
+msgctxt "field:gnuhealth.orthanc.patient,uuid:"
+msgid "PatientUUID"
+msgstr "PacienteUUID"
+
+#, fuzzy
+msgctxt "field:gnuhealth.orthanc.study,date:"
+msgid "Date"
+msgstr "Fecha"
+
+#, fuzzy
+msgctxt "field:gnuhealth.orthanc.study,description:"
+msgid "Description"
+msgstr "Descripción"
+
+#, fuzzy
+msgctxt "field:gnuhealth.orthanc.study,ident:"
+msgid "ID"
+msgstr "ID"
+
+#, fuzzy
+msgctxt "field:gnuhealth.orthanc.study,imaging_test:"
+msgid "Study"
+msgstr "Estudio"
+
+msgctxt "field:gnuhealth.orthanc.study,instance_uid:"
+msgid "InstanceUID"
+msgstr "UID de instancia"
+
+#, fuzzy
+msgctxt "field:gnuhealth.orthanc.study,institution:"
+msgid "Institution"
+msgstr "Institución"
+
+msgctxt "field:gnuhealth.orthanc.study,merge_id:"
+msgid "Merge ID"
+msgstr "Fusionar ID"
+
+msgctxt "field:gnuhealth.orthanc.study,ohif_viewer_link:"
+msgid "OHIF Viewer"
+msgstr "Visor OHIF"
+
+msgctxt "field:gnuhealth.orthanc.study,orthanc_explorer_link:"
+msgid "Orthanc Explorer"
+msgstr "Explorador de Orthanc"
+
+#, fuzzy
+msgctxt "field:gnuhealth.orthanc.study,patient:"
+msgid "Patient"
+msgstr "Paciente"
+
+msgctxt "field:gnuhealth.orthanc.study,ref_phys:"
+msgid "Referring Physician"
+msgstr "Médico remitente"
+
+msgctxt "field:gnuhealth.orthanc.study,req_phys:"
+msgid "Requesting Physician"
+msgstr "Médico solicitante"
+
+msgctxt "field:gnuhealth.orthanc.study,requested_procedure_id:"
+msgid "RequestedProcedureID"
+msgstr "ID de procedimiento solicitado"
+
+msgctxt "field:gnuhealth.orthanc.study,server:"
+msgid "Server"
+msgstr "Servidor"
+
+msgctxt "field:gnuhealth.orthanc.study,stone_viewer_link:"
+msgid "Stone Viewer"
+msgstr "Visor de Stone"
+
+#, fuzzy
+msgctxt "field:gnuhealth.orthanc.study,uuid:"
+msgid "UUID"
+msgstr "UUID"
+
+msgctxt "field:gnuhealth.patient,orthanc_patients:"
+msgid "Orthanc patients"
+msgstr "Pacientes de Orthanc"
+
+msgctxt "field:gnuhealth.patient,orthanc_studies:"
+msgid "Orthanc Study"
+msgstr "Estudio Orthanc"
+
+msgctxt "help:gnuhealth.imaging_orthanc.orthanc_add_init_data,domain:"
+msgid "The full URL of the Orthanc server. Must be unique"
+msgstr "La URL completa del servidor Orthanc. Debe ser único"
+
+msgctxt "help:gnuhealth.imaging_orthanc.orthanc_add_init_data,label:"
+msgid "The label of the Orthanc server. Must be unique"
+msgstr "La etiqueta del servidor Orthanc. Debe ser única"
+
+msgctxt "help:gnuhealth.imaging_orthanc.orthanc_add_init_data,password:"
+msgid "Password for Orthanc REST server"
+msgstr "Contraseña para el servidor REST de Orthanc"
+
+msgctxt "help:gnuhealth.imaging_orthanc.orthanc_add_init_data,proxy_domain:"
+msgid ""
+"Optional Proxy URL of the Orthanc server. It's only needed when the client "
+"cannot connect directly to the Orthanc server."
+msgstr ""
+"URL proxy opcional del servidor Orthanc. Solo es necesario cuando el cliente"
+" no puede conectarse directamente al servidor Orthanc."
+
+msgctxt "help:gnuhealth.imaging_orthanc.orthanc_add_init_data,user:"
+msgid "Username for Orthanc REST server"
+msgstr "Nombre de usuario para el servidor REST de Orthanc"
+
+msgctxt "help:gnuhealth.imaging_orthanc.series_instances,series:"
+msgid "Study series instance"
+msgstr "Ejemplo de la serie de estudios"
+
+msgctxt "help:gnuhealth.imaging_orthanc.study,link_base_url:"
+msgid "Base URL for links"
+msgstr "URL base para enlaces"
+
+msgctxt "help:gnuhealth.imaging_orthanc.study,merge_id:"
+msgid ""
+"Test result merge id, with it help, gnuhealth test result and orthanc study "
+"can be merged."
+msgstr ""
+"Id de resultados de la prueba, con ayuda, el resultado de la prueba "
+"gnuhealth y estudio de Orthanc pueden combinarse."
+
+#, fuzzy
+msgctxt "help:gnuhealth.imaging_orthanc.study,notes:"
+msgid "Extra Information"
+msgstr "Información"
+
+msgctxt "help:gnuhealth.imaging_orthanc.study,ohif_viewer_link:"
+msgid "Link to Orthanc OHIF Viewer"
+msgstr "Enlace al visor OHIF de Orthanc"
+
+#, fuzzy
+msgctxt "help:gnuhealth.imaging_orthanc.study,patient:"
+msgid "Patient Name"
+msgstr "Paciente"
+
+msgctxt "help:gnuhealth.imaging_orthanc.study,stone_viewer_link:"
+msgid "Link to Orthanc Stone Viewer"
+msgstr "Enlace al visor Stone de Orthanc"
+
+#, fuzzy
+msgctxt "help:gnuhealth.imaging_orthanc.study_series,notes:"
+msgid "Extra Information"
+msgstr "Información"
+
+msgctxt "help:gnuhealth.imaging_orthanc.study_series,stone_viewer_link:"
+msgid "Link to Orthanc Stone Viewer"
+msgstr "Enlace al visor Stone de Orthanc"
+
+msgctxt "help:gnuhealth.imaging_orthanc.study_series,study:"
+msgid "Patient study series"
+msgstr "Serie de estudios de pacientes"
+
+msgctxt ""
+"help:gnuhealth.imaging_orthanc.upload_image_data.start,server_config:"
+msgid "Orthanc server"
+msgstr "Servidor Orthanc"
+
+msgctxt "help:gnuhealth.orthanc.config,domain:"
+msgid "The full URL of the Orthanc server"
+msgstr "La URL completa del servidor de Orthanc"
+
+msgctxt "help:gnuhealth.orthanc.config,label:"
+msgid "Label for server (eg., remote)"
+msgstr "Etiqueta para servidor (p. ej., remoto)"
+
+msgctxt "help:gnuhealth.orthanc.config,last_changed_index:"
+msgid "Index of last change"
+msgstr "Índice del último cambio"
+
+msgctxt "help:gnuhealth.orthanc.config,link:"
+msgid "Link to Orthanc Explorer"
+msgstr "Enlace al explorador de Orthanc"
+
+msgctxt "help:gnuhealth.orthanc.config,link_base_url:"
+msgid "Base URL for links"
+msgstr "URL base para enlaces"
+
+msgctxt "help:gnuhealth.orthanc.config,password:"
+msgid "Password for Orthanc REST server"
+msgstr "Contraseña para el servidor REST de Orthanc"
+
+msgctxt "help:gnuhealth.orthanc.config,proxy_domain:"
+msgid "The proxy URL of the Orthanc server"
+msgstr "La URL del proxy del servidor de Orthanc"
+
+msgctxt "help:gnuhealth.orthanc.config,user:"
+msgid "Username for Orthanc REST server"
+msgstr "Nombre de usuario para el servidor REST de Orthanc"
+
+msgctxt "help:gnuhealth.orthanc.config,validated:"
+msgid "Whether the server details have been successfully checked"
+msgstr "Si los detalles del servidor se han verificado correctamente"
+
+msgctxt "help:gnuhealth.orthanc.patient,link:"
+msgid "Link to patient in Orthanc Explorer"
+msgstr "Enlace al paciente en el explorador de Orthanc"
+
+msgctxt "help:gnuhealth.orthanc.patient,patient:"
+msgid "Local linked patient"
+msgstr "Paciente vinculado localmente"
+
+msgctxt "help:gnuhealth.orthanc.study,institution:"
+msgid "Imaging center where study was undertaken"
+msgstr "Centro de imagen donde se realizó el estudio"
+
+msgctxt "help:gnuhealth.orthanc.study,merge_id:"
+msgid ""
+"Test result merge id, with it help, gnuhealth test result and orthanc study "
+"can be merged."
+msgstr ""
+"ID de fusión del resultado de la prueba; con su ayuda, se pueden fusionar el"
+" resultado de la prueba de gnuhealth y el estudio de orthanc."
+
+msgctxt "help:gnuhealth.orthanc.study,ohif_viewer_link:"
+msgid "Link to study in OHIF Viewer."
+msgstr "Enlace para estudiar en el visor de OHIF."
+
+msgctxt "help:gnuhealth.orthanc.study,orthanc_explorer_link:"
+msgid "Link to study in Orthanc Explorer."
+msgstr "Enlace al estudio en el explorador Orthanc."
+
+msgctxt "help:gnuhealth.orthanc.study,stone_viewer_link:"
+msgid "Link to study in Stone Viewer."
+msgstr "Enlace al estudio en el visor de Stone."
+
+msgctxt "model:gnuhealth.imaging_orthanc.full_synchronize.start,name:"
+msgid "Full Synchronize studies Start"
+msgstr "Inicio de los estudios Full Synchronize"
+
+msgctxt "model:gnuhealth.imaging_orthanc.get_new_studies.start,name:"
+msgid "Get New Studies Start"
+msgstr "Comienzo nuevos estudios"
+
+msgctxt "model:gnuhealth.imaging_orthanc.orthanc_add_init_data,name:"
+msgid "Init data for Orthanc connection"
+msgstr "Datos de inicio para la conexión Orthanc"
+
+msgctxt "model:gnuhealth.imaging_orthanc.series_instances,name:"
+msgid "Series Instance"
+msgstr "Instancia de serie"
+
+msgctxt "model:gnuhealth.imaging_orthanc.study,name:"
+msgid "Patient Orthanc Study"
+msgstr "Estudio de paciente Orthanc"
+
+msgctxt "model:gnuhealth.imaging_orthanc.study_series,name:"
+msgid "Study Series"
+msgstr "Series de estudios"
+
+msgctxt "model:gnuhealth.imaging_orthanc.upload_image_data.start,name:"
+msgid "Upload Image Data Start"
+msgstr "Inicio de la subida de datos de imagen"
+
+msgctxt "model:gnuhealth.orthanc.config,name:"
+msgid "Orthanc Server Config"
+msgstr "Configuración del servidor Orthanc"
+
+msgctxt "model:gnuhealth.orthanc.patient,name:"
+msgid "Orthanc patient information"
+msgstr "Información del paciente de Orthanc"
+
+msgctxt "model:gnuhealth.orthanc.study,name:"
+msgid "DEPRECATED IN GH 5.0 by PatientOrthancStudy"
+msgstr "OBSOLETO EN GH 5.0 por PatientOrthancStudy"
+
+msgctxt "model:ir.action,name:act_full_synchronize"
+msgid "Orthanc: Full Synchronize"
+msgstr "Orthanc: sincronización completa"
+
+msgctxt "model:ir.action,name:act_get_new_Studies"
+msgid "Orthanc: Get New Studies"
+msgstr "Orthanc: obtener nuevos estudios"
+
+#, fuzzy
+msgctxt "model:ir.action,name:act_imaging_orthanc_patient_view"
+msgid "Patients"
+msgstr "Pacientes"
+
+msgctxt "model:ir.action,name:act_imaging_orthanc_study_series_view"
+msgid "Series"
+msgstr "Serie"
+
+#, fuzzy
+msgctxt "model:ir.action,name:act_imaging_orthanc_study_view"
+msgid "Studies"
+msgstr "Estudio"
+
+msgctxt "model:ir.action,name:act_orthanc_server_view"
+msgid "Servers"
+msgstr "Servidores"
+
+msgctxt "model:ir.action,name:act_upload_image_data"
+msgid "Orthanc: Upload DICOM Files"
+msgstr "Orthanc: Subir archivos DICOM"
+
+msgctxt "model:ir.action,name:orthanc_add_server_init_data"
+msgid "Add New Server"
+msgstr "Añadir nuevo servidor"
+
+msgctxt "model:ir.message,text:msg_find_no_gnuhealth_imaging_test"
+msgid ""
+"Can not find the corresponding GNU Health imaging test to attach this image."
+msgstr ""
+"No se puede encontrar la prueba de imagen GNU Health correspondiente para "
+"adjuntar esta imagen."
+
+msgctxt "model:ir.message,text:msg_label_image_position"
+msgid "Image Position Patient:"
+msgstr "Paciente en posición de la imagen:"
+
+msgctxt "model:ir.message,text:msg_label_instance_number"
+msgid "Instance Number:"
+msgstr "Número de instancia:"
+
+msgctxt "model:ir.model.button,string:button_imaging_orthanc_delete_series"
+msgid "Delete Series"
+msgstr "Eliminar serie"
+
+msgctxt "model:ir.model.button,string:button_imaging_orthanc_delete_study"
+msgid "Delete Study"
+msgstr "Eliminar estudio"
+
+msgctxt ""
+"model:ir.model.button,string:button_imaging_orthanc_series_instances_attach_image_to_imaging_test_report"
+msgid "Attach To Report"
+msgstr "Añadir al informe"
+
+msgctxt "model:ir.model.button,string:remove_config_server_button"
+msgid "Remove Config Server"
+msgstr "Eliminar la configuración del servidor"
+
+msgctxt "model:ir.ui.menu,name:imaging_orthanc_add_server_menu"
+msgid "Add New Server"
+msgstr ""
+
+msgctxt "model:ir.ui.menu,name:imaging_orthanc_menu_patient_view"
+msgid "Patients"
+msgstr ""
+
+msgctxt "model:ir.ui.menu,name:imaging_orthanc_menu_study_view"
+msgid "Studies"
+msgstr ""
+
+msgctxt "model:ir.ui.menu,name:orthanc_config_menu"
+msgid "Orthanc"
+msgstr ""
+
+msgctxt "model:ir.ui.menu,name:orthanc_menu"
+msgid "Orthanc"
+msgstr ""
+
+msgctxt "model:ir.ui.menu,name:orthanc_servers_menu"
+msgid "Servers"
+msgstr ""
+
+msgctxt "model:res.group,name:group_imaging_orthanc"
+msgid "Health Imaging Orthanc"
+msgstr ""
+
+msgctxt "model:res.group,name:group_imaging_orthanc_admin"
+msgid "Health Imaging Orthanc Administration"
+msgstr ""
+
+msgctxt "view:gnuhealth.imaging.test.result:"
+msgid "Orthanc"
+msgstr ""
+
+msgctxt "view:gnuhealth.imaging_orthanc.full_synchronize.start:"
+msgid ""
+"Full Synchronize Studies? Please be patient as this process may take some "
+"time!"
+msgstr ""
+
+msgctxt "view:gnuhealth.imaging_orthanc.get_new_studies.start:"
+msgid "Get updated image data that has changed since the last update?"
+msgstr ""
+
+msgctxt "view:gnuhealth.imaging_orthanc.orthanc_add_init_data:"
+msgid " "
+msgstr ""
+
+#, fuzzy
+msgctxt "view:gnuhealth.imaging_orthanc.orthanc_add_init_data:"
+msgid "Server Information"
+msgstr "Información"
+
+msgctxt "view:gnuhealth.imaging_orthanc.orthanc_add_init_data:"
+msgid "User credentials"
+msgstr ""
+
+msgctxt "view:gnuhealth.imaging_orthanc.series_instances:"
+msgid "Add To RPT"
+msgstr ""
+
+msgctxt "view:gnuhealth.imaging_orthanc.series_instances:"
+msgid ""
+"Attach current image to the corresponding GNU Health imaging test report."
+msgstr ""
+
+msgctxt "view:gnuhealth.imaging_orthanc.series_instances:"
+msgid ""
+"Do you want to attach current image to the corresponding GNU Health imaging "
+"test report?"
+msgstr ""
+
+msgctxt "view:gnuhealth.imaging_orthanc.study:"
+msgid "Delete study from remote orthanc server."
+msgstr ""
+
+msgctxt "view:gnuhealth.imaging_orthanc.study:"
+msgid "Do you really want to delete the study from remote orthanc server?"
+msgstr ""
+
+msgctxt "view:gnuhealth.imaging_orthanc.study:"
+msgid "GNU Health"
+msgstr ""
+
+msgctxt "view:gnuhealth.imaging_orthanc.study:"
+msgid "GNU Health Patient"
+msgstr ""
+
+msgctxt "view:gnuhealth.imaging_orthanc.study:"
+msgid "Orthanc"
+msgstr ""
+
+msgctxt "view:gnuhealth.imaging_orthanc.study:"
+msgid "Orthanc: Delete Study"
+msgstr ""
+
+#, fuzzy
+msgctxt "view:gnuhealth.imaging_orthanc.study:"
+msgid "Patient:"
+msgstr "Paciente"
+
+msgctxt "view:gnuhealth.imaging_orthanc.study:"
+msgid "Study Content"
+msgstr ""
+
+#, fuzzy
+msgctxt "view:gnuhealth.imaging_orthanc.study:"
+msgid "Study Notes"
+msgstr "Estudio"
+
+msgctxt "view:gnuhealth.imaging_orthanc.study_series:"
+msgid "Delele"
+msgstr ""
+
+msgctxt "view:gnuhealth.imaging_orthanc.study_series:"
+msgid "Delete study series from remote orthanc server."
+msgstr ""
+
+msgctxt "view:gnuhealth.imaging_orthanc.study_series:"
+msgid ""
+"Do you really want to delete the series from remote orthanc server? After "
+"deleting your selected series, remember to click 'Reload' to refresh the "
+"table if there are empty rows left!"
+msgstr ""
+
+msgctxt "view:gnuhealth.imaging_orthanc.study_series:"
+msgid "Series"
+msgstr ""
+
+msgctxt "view:gnuhealth.imaging_orthanc.study_series:"
+msgid "Series Notes"
+msgstr ""
+
+msgctxt "view:gnuhealth.imaging_orthanc.study_series:"
+msgid "Viewers"
+msgstr ""
+
+msgctxt "view:gnuhealth.imaging_orthanc.upload_image_data.start:"
+msgid "Upload the DICOM files to Orthanc?"
+msgstr ""
+
+msgctxt "view:gnuhealth.orthanc.config:"
+msgid " "
+msgstr ""
+
+msgctxt "view:gnuhealth.orthanc.config:"
+msgid "Do you really want to remove the server configuration?"
+msgstr ""
+
+#, fuzzy
+msgctxt "view:gnuhealth.orthanc.config:"
+msgid "General"
+msgstr "General"
+
+msgctxt "view:gnuhealth.orthanc.config:"
+msgid "Link"
+msgstr ""
+
+msgctxt "view:gnuhealth.orthanc.config:"
+msgid "Remove Configured Server"
+msgstr ""
+
+msgctxt "view:gnuhealth.orthanc.config:"
+msgid "Remove the server configuration"
+msgstr ""
+
+#, fuzzy
+msgctxt "view:gnuhealth.orthanc.config:"
+msgid "Server Information"
+msgstr "Información"
+
+#, fuzzy
+msgctxt "view:gnuhealth.orthanc.config:"
+msgid "User"
+msgstr "Usuario"
+
+#, fuzzy
+msgctxt "wizard_button:gnuhealth.imaging_orthanc.full_synchronize,start,end:"
+msgid "Cancel"
+msgstr "Cancelar"
+
+msgctxt ""
+"wizard_button:gnuhealth.imaging_orthanc.full_synchronize,start,synchronize:"
+msgid "Synchronize"
+msgstr ""
+
+#, fuzzy
+msgctxt "wizard_button:gnuhealth.imaging_orthanc.get_new_studies,start,end:"
+msgid "Cancel"
+msgstr "Cancelar"
+
+msgctxt ""
+"wizard_button:gnuhealth.imaging_orthanc.get_new_studies,start,update:"
+msgid "Start"
+msgstr ""
+
+#, fuzzy
+msgctxt "wizard_button:gnuhealth.imaging_orthanc.upload_image_data,start,end:"
+msgid "Cancel"
+msgstr "Cancelar"
+
+msgctxt ""
+"wizard_button:gnuhealth.imaging_orthanc.upload_image_data,start,upload:"
+msgid "Upload Image Data"
+msgstr ""
+
+msgctxt ""
+"wizard_button:gnuhealth.imaging_orthanc.wizard.orthanc_new_connect,start,connect:"
+msgid "Connect"
+msgstr ""
+
+#, fuzzy
+msgctxt ""
+"wizard_button:gnuhealth.imaging_orthanc.wizard.orthanc_new_connect,start,end:"
+msgid "Cancel"
+msgstr "Cancelar"

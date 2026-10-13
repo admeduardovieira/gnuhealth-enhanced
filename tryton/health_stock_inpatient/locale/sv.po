@@ -1,0 +1,122 @@
+#
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2026-09-13 16:26+0000\n"
+"Last-Translator: yeager <yeager@noreply.codeberg.org>\n"
+"Language-Team: Swedish <https://translate.codeberg.org/projects/gnuhealth/health_stock_inpatient/sv/>\n"
+"Language: sv\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2026.8.1\n"
+
+msgctxt "field:gnuhealth.patient.rounding,hospitalization_location:"
+msgid "Hospitalization Location"
+msgstr "Vårdplats"
+
+msgctxt "field:gnuhealth.patient.rounding,medical_supplies:"
+msgid "Medical Supplies"
+msgstr "Medicinskt förbrukningsmaterial"
+
+msgctxt "field:gnuhealth.patient.rounding,medicaments:"
+msgid "Medicaments"
+msgstr "Läkemedel"
+
+msgctxt "field:gnuhealth.patient.rounding,moves:"
+msgid "Stock Moves"
+msgstr "Lagerförflyttningar"
+
+msgctxt "field:gnuhealth.patient.rounding.medical_supply,lot:"
+msgid "Lot"
+msgstr "Parti"
+
+msgctxt "field:gnuhealth.patient.rounding.medical_supply,product:"
+msgid "Medical Supply"
+msgstr "Medicinskt förbrukningsmaterial"
+
+msgctxt "field:gnuhealth.patient.rounding.medical_supply,quantity:"
+msgid "Quantity"
+msgstr "Kvantitet"
+
+msgctxt "field:gnuhealth.patient.rounding.medical_supply,rounding:"
+msgid "Rounding ID"
+msgstr "Rondnings-id"
+
+msgctxt "field:gnuhealth.patient.rounding.medical_supply,short_comment:"
+msgid "Comment"
+msgstr "Kommentar"
+
+msgctxt "field:gnuhealth.patient.rounding.medicament,lot:"
+msgid "Lot"
+msgstr "Parti"
+
+msgctxt "field:gnuhealth.patient.rounding.medicament,medicament:"
+msgid "Medicament"
+msgstr "Läkemedel"
+
+msgctxt "field:gnuhealth.patient.rounding.medicament,product:"
+msgid "Product"
+msgstr "Produkt"
+
+msgctxt "field:gnuhealth.patient.rounding.medicament,quantity:"
+msgid "Quantity"
+msgstr "Kvantitet"
+
+msgctxt "field:gnuhealth.patient.rounding.medicament,rounding:"
+msgid "Rounding ID"
+msgstr "Rondnings-id"
+
+msgctxt "field:gnuhealth.patient.rounding.medicament,short_comment:"
+msgid "Comment"
+msgstr "Kommentar"
+
+msgctxt "help:gnuhealth.patient.rounding.medical_supply,short_comment:"
+msgid "Short comment on the specific drug"
+msgstr "Kort kommentar gällande den specifika drogen"
+
+msgctxt "help:gnuhealth.patient.rounding.medicament,short_comment:"
+msgid "Short comment on the specific drug"
+msgstr "Kort kommentar gällande den specifika drogen"
+
+msgctxt "model:gnuhealth.patient.rounding.medical_supply,name:"
+msgid "Patient Rounding Medical Supply"
+msgstr "Medicinskt förbrukningsmaterial vid patientrond"
+
+msgctxt "model:gnuhealth.patient.rounding.medicament,name:"
+msgid "Patient Rounding Medicament"
+msgstr "Läkemedel vid patientrond"
+
+msgctxt "model:ir.message,text:msg_expired_vaccine"
+msgid ""
+"EXPIRED VACCINE. PLEASE INFORM THE LOCAL HEALTH AUTHORITIES AND DO NOT USE "
+"IT !!!"
+msgstr ""
+"UTGÅNGET VACCIN. INFORMERA LOKALA HÄLSOMYNDIGHETER OCH ANVÄND DET INTE!"
+
+msgctxt "model:ir.message,text:msg_no_pharmacy"
+msgid "You need to select a pharmacy"
+msgstr "Du måste välja ett apotek"
+
+msgctxt "model:ir.message,text:msg_stock_move_exists"
+msgid "Stock move already exists"
+msgstr "Lagerförflyttningen finns redan"
+
+msgctxt "model:ir.model.button,string:rounding_end_button"
+msgid "End Rounding"
+msgstr "Avsluta ronderingen"
+
+msgctxt "view:gnuhealth.patient.rounding:"
+msgid "Done / Create Stock moves"
+msgstr "Klar / Skapa lagerflyttar"
+
+msgctxt "view:gnuhealth.patient.rounding:"
+msgid "Medication"
+msgstr "Medicin"
+
+msgctxt "view:gnuhealth.patient.rounding:"
+msgid "Six P's"
+msgstr "De sex P:na"
+
+msgctxt "view:gnuhealth.patient.rounding:"
+msgid "Stock Moves"
+msgstr "Lagerflyttar"
